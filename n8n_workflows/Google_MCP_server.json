@@ -24,8 +24,10 @@
           "mode": "list",
           "cachedResultName": "Claire_agent"
         },
-        "returnAll": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Return_All', ``, 'boolean') }}",
-        "timeMax": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Before', ``, 'string') }}",
+        "returnAll": false,
+        "limit": 50,
+        "timeMin": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('After', `ISO 8601 datetime string for the start of the search range, e.g. the beginning of the requested day`, 'string') }}",
+        "timeMax": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Before', `ISO 8601 datetime string for the end of the search range, e.g. the end of the requested day or up to 6 months ahead`, 'string') }}",
         "options": {}
       },
       "type": "n8n-nodes-base.googleCalendarTool",
@@ -59,7 +61,6 @@
             "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('attendees0_Attendees', ``, 'string') }}"
           ],
           "description": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Description', ``, 'string') }}",
-          "id": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('ID', ``, 'string') }}",
           "location": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Location', ``, 'string') }}",
           "summary": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Summary', ``, 'string') }}"
         }
