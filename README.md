@@ -12,11 +12,11 @@ Cl(ai)re is made up of two layers:
 
 ## What She Can Do
 
-- Check your availability across a 6-month window
-- Book new appointments (with confirmation before anything is written)
-- Reschedule or cancel existing ones
-- Handle timezones automatically — based in Berlin (CET/CEST) but aware of other zones
-- Converse in **English, German, Afrikaans, and Cantonese**
+- Check Rich's availability across a 6-month window
+- Book new appointments (with confirmation before anything is scheduled)
+- Reschedule or cancel existing meetings
+- Handle timezones automatically — Cl(ai)re is based in Berlin (CET/CEST) but aware of other timezones
+- Converse in **English and German** (coming soon: Afrikaans and Cantonese)
 - Protect your privacy — never reveals the details of existing calendar events, only whether a slot is free or busy
 
 ## Stack
@@ -41,6 +41,6 @@ Cl(ai)re is made up of two layers:
 
 ## Requirements
 
-- n8n instance (self-hosted or cloud)
+- n8n instance (hosted on Hostinger's VPS)
 - ElevenLabs API key
 - Google Calendar API credentials (OAuth2)
