@@ -14,16 +14,17 @@ Simple project — but building her surfaced lessons I'd apply to any AI solutio
 → **Controllability** — AI interprets; humans decide. Corrections feed back in. Trust is earned incrementally.
 
 **Pitfalls to design around:**
-→ Context Drift — agents lose focus. Keep them narrow.
-→ Hallucination — no verified data, no answer.
-→ Non-Determinism — same input, different output. Pin your models.
-→ Automation Bias — users trust AI outputs uncritically. A 2025 study found that adding explanations *increases* blind trust. Add friction, not just transparency.
+→ Context Drift — agents lose focus. Keep them narrow (one agent, one job).
+→ Hallucination — no verified data, no answer. Use RAG for domain knowledge.
+→ Scoping — agree on scope before you build, not after.
+→ Non-Determinism — same input, different output. Pin your models and log everything.
+→ Automation Bias — a 2025 study found that adding explanations *increases* blind trust. Add friction before high-stakes outputs, not just transparency.
 
 **And always build in:** Observability + Version Control. If you can't see it or roll it back, you can't operate it.
 
-I wrote up the full breakdown with diagrams and resolutions here: <SUBSTACK_URL>
+Full breakdown — with resolutions for each — here: [Meet Cl(ai)re on Substack](https://rtheman.substack.com/p/meet-claire?r=6xi46)
 
-Or skip the reading and try Cl(ai)re yourself — she's live at [rtheman.com](https://rtheman.com), bottom-right corner. She speaks English and German. Go ahead, book a meeting with me. 👇
+Or skip the reading and try Cl(ai)re yourself — she's live at [rtheman.com](https://rtheman.com), bottom-right corner. She speaks English 🇬🇧 and German 🇩🇪. Go ahead, book a meeting with me. 👇
 
 ---
 
