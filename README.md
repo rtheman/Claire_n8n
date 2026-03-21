@@ -10,6 +10,10 @@ Cl(ai)re is made up of two layers:
 
 2. **The hands — an n8n workflow via MCP**: An MCP Server Trigger exposes four Google Calendar tools (get events, create, update, delete) that Cl(ai)re calls dynamically based on what you ask her to do.
 
+## Try Cl(ai)re
+
+Cl(ai)re is live — visit [rtheman.com](https://rtheman.com) and find her in the bottom-right corner of the page. She currently speaks **English and German**.
+
 ## What She Can Do
 
 - Check Rich's availability across a 6-month window
