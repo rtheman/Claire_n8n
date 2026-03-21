@@ -29,9 +29,9 @@ Beyond those three, I ran into five pitfalls worth naming:
 
 **Scoping** — AI tools can both over-engineer (adding things nobody asked for) and under-engineer (missing edge cases). Fix: plan before you build. Review the approach *before* any code is written.
 
-**Prompt Injection** — users providing input that overrides the agent's instructions. It's OWASP's #1 LLM risk, and easy to overlook. Fix: principle of least privilege, input validation, and a confirmation step before any write action.
+**Non-Determinism** — same input, different output. Traditional software doesn't do this. AI does. For analytics, this is a reproducibility problem. Fix: pin model versions, set temperature to 0 for production, log every intermediate step.
 
-**Integration Fragility** — APIs change, credentials expire, services update silently. Your agent may start failing without anyone noticing. Fix: monitor tool call success rates and alert on failures. Treat your integrations like production infrastructure.
+**Automation Bias** — the human-side failure we underestimate. Users accept AI outputs uncritically because they look authoritative. Counterintuitively, a 2025 study found that adding explanations *increases* blind trust, not decreases it. Fix: require analysts to form their own hypothesis before seeing the AI's answer. Add friction before high-stakes outputs propagate.
 
 ---
 
